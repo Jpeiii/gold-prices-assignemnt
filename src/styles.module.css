@@ -1,0 +1,35 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #65b6f7 0%, #7f867b 100%);
+  }
+  
+  .header_info {
+    height: 50px;
+    display: flex;
+  }
+
+  .logo {
+    background-color: #9dafba;
+    grid-area: logo;
+    font-weight: 700;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .avatar_header {
+    align-items: right;
+    padding-top: 5%;
+  }
+  
+  .background {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
